@@ -28,8 +28,8 @@ from detectron2.evaluation import (
 from detectron2.modeling import GeneralizedRCNNWithTTA
 import pandas as pd
 
-from PIL import Image, ImageFile
-ImageFile.LOAD_TRUNCATED_IMAGES = True
+# from PIL import Image, ImageFile
+# ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 
 def get_augs(cfg):
